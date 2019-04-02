@@ -88,7 +88,8 @@ Here are the classnames: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_
 
 **Credits:**
 
-Thanks to Shix for the programming that is used to run this mod. 
+Thanks to **Shix** for the programming that is used to run this mod.
+
 This contains scripts crated by:
 
 Shix: Created XM8Apps, eBase XM8 App, View Distance.
