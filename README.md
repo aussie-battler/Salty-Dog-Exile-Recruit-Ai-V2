@@ -20,47 +20,24 @@
 2. Order the Ai will hop in the vehicle.
 3. Get in the vehicle & mark waypoints on the map. You can also take over driving.
 
-<<<<<<< HEAD
-I would like to change the ai behaviour to help kill other Exile Players out of the players group. Let me know if you have any ideas.
-
-=======
->>>>>>> ff233f8c2d16d0b52c51dcf4299389f6bdf62032
 
 **Install: Recruit Ai from your XM8.**
 
 1. Drop the xm8Apps folder into your mission folder.
 
-<<<<<<< HEAD
-2. Add this line to your init.sqf (found in the root directory of your mission folder):
-
-```
-[] execVm "xm8Apps\ExileSecurity\Init.sqf";
-
-```
-3. In config.cpp search for BeefParts and change the line to:
-=======
 2. In config.cpp search for BeefParts and change the line to:
->>>>>>> ff233f8c2d16d0b52c51dcf4299389f6bdf62032
 ```
 class Exile_Item_BeefParts    { quality = 1; price = 50000; sellPrice = 14;}; // change the buy/sell price to whatever suits.
 
 ```
-<<<<<<< HEAD
-4. In config.cpp search for CfgExileCustomCode and add this:
-=======
 3. In config.cpp search for CfgExileCustomCode and add this:
->>>>>>> ff233f8c2d16d0b52c51dcf4299389f6bdf62032
 ```
 class CfgExileCustomCode 
 {
 	ExileClient_gui_xm8_slide_apps_onOpen = "xm8Apps\ExileClient_gui_xm8_slide_apps_onOpen.sqf";																							 
 };
 ```
-<<<<<<< HEAD
-5. In your description.ext turn on the commanding menu (change to 1):
-=======
 4. In your description.ext turn on the commanding menu (change to 1):
->>>>>>> ff233f8c2d16d0b52c51dcf4299389f6bdf62032
 ```
 showHUD[] =
 {
@@ -75,10 +52,6 @@ showHUD[] =
     1   // Squad Radar
 };
 ```
-<<<<<<< HEAD
- 
-Then players can see the command ai menu. 
-=======
 Now players can see the command ai menu. 
 
  5. If you want to use XM8 Secuirty 
@@ -90,7 +63,6 @@ Now players can see the command ai menu.
 
 ```
 
->>>>>>> ff233f8c2d16d0b52c51dcf4299389f6bdf62032
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Want to make changes?**
