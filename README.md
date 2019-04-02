@@ -52,6 +52,8 @@ showHUD[] =
     1   // Squad Radar
 };
 ```
+Now players can see the command ai menu. 
+
  5. If you want to use XM8 Secuirty 
  
  Add this line to your init.sqf (found in the root directory of your mission folder):
@@ -60,7 +62,7 @@ showHUD[] =
 [] execVm "xm8Apps\ExileSecurity\Init.sqf";
 
 ```
-Then players can see the command ai menu. 
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Want to make changes?**
