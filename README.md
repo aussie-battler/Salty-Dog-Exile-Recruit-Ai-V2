@@ -69,11 +69,7 @@ Now players can see the command ai menu.
 
 1. Change the XM8 logo at:
 
-your.mission\ExAdClient\XM8\Apps\DeployVehicle\dog.paa
-
-In config.cpp under "class ExAd_Unit", change the line to suit your logo name
-
-logo = "ExAdClient\XM8\Apps\DeployVehicle\dog.paa";
+Exile.Mission\xm8Apps\images\xm8logofix_ca.paa
 
 2. Change the soldiers at:
 
