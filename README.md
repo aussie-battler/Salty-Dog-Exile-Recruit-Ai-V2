@@ -101,3 +101,4 @@ aussie
 
 ![Recruit Ai](https://raw.githubusercontent.com/aussie-battler/Salty-Dog-Exile-Recruit-Ai/master/20170906170504_1.jpg)
 
+![Recruit Ai](https://cdn.discordapp.com/attachments/331697969231298562/562792653440286730/unknown.png)
