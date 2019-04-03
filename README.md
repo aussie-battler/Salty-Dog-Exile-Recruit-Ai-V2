@@ -62,7 +62,18 @@ Now players can see the command ai menu.
 [] execVm "xm8Apps\ExileSecurity\Init.sqf";
 
 ```
+6. Infistar Settings:
 
+Add this to a3_infiSTAR_Exile\EXILE_AHAT_CONFIG.hpp
+
+```
+allowedIDDs[] =
+{
+	20001,20002,20003,20004,20005, //recruit ai bodyguard 		
+	
+};	
+
+```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 **Want to make changes?**
