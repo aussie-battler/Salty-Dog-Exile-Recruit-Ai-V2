@@ -1,6 +1,6 @@
 ## Salty Dog Exile: Recruit Bodyguard Ai V2
 
-**Description:** Recruit Ai Body guards from your XM8 or from placed objects on the map. 
+**Description:** Recruit up to 6 different Ai Body guards from your XM8. 
 
 **Rules:** Can't deploy the ai guard in a safe zone. Ai despawns on restarts. Ai only attacks mission ai (only tested on DMS Ai).
 
