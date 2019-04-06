@@ -8,8 +8,9 @@
  +  No spawn in safezone.
 **/
 
-private ["_statue","_unit","unitList"];
-    if(ExilePlayerInSafezone) exitWith {
+	private ["_statue","_unit","unitList"];
+    if(ExilePlayerInSafezone) exitWith 
+	{
         ["ErrorTitleAndText", ["Deployment Failed!", "You can't deploy soldier in trader!"]] call ExileClient_gui_toaster_addTemplateToast;
     };
 	if ("Exile_Item_BeefParts" in (magazines player)) then
@@ -37,9 +38,9 @@ private ["_statue","_unit","unitList"];
 	//_statue = nearestObject [player, "Land_AncientStatue_01_F"];
 	//deleteVehicle _statue;
 	disableUserInput false;
-	}
+	};
 	else
 	{
        ["ErrorTitleAndText", ["Deployment Failed!", "You need beef parts..."]] call ExileClient_gui_toaster_addTemplateToast;
 	}; 
-}; 
+ 
