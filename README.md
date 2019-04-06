@@ -93,7 +93,7 @@ allowedIDDs[] =
 	5501,5502,5503,5504,5505,5506,5507,	// BRAma Cookbook
 	-1339,-1340,	// custom infiSTAR dialogs (some editor & a private chat menu)
 	86000, //ground & halo spawn
-	20001,20002,20003,20004,20005, //recruit ai bodyguard 							 
+	20001,20002,20003,20004,20005,999999, //recruit ai bodyguard 							 
 	24036,   //new virtual garage
 	8087,
 	/* main idd - never delete it */
