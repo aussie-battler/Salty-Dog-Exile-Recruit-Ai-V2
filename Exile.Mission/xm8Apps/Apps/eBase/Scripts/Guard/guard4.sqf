@@ -8,9 +8,8 @@
  +  No spawn in safezone.
 **/
 
-	private ["_statue","_unit","unitList"];
-    if(ExilePlayerInSafezone) exitWith 
-	{
+private ["_statue","_unit","__unitList"];
+    if(ExilePlayerInSafezone) exitWith {
         ["ErrorTitleAndText", ["Deployment Failed!", "You can't deploy soldier in trader!"]] call ExileClient_gui_toaster_addTemplateToast;
     };
 	if ("Exile_Item_BeefParts" in (magazines player)) then
@@ -20,8 +19,8 @@
 	disableUserInput true;
 	player playMove "AinvPknlMstpSnonWnonDr_medic3"; 
 	uisleep 10;   //,"I_ghillie_lsh_F","I_ghillie_sard_F","I_G_Sharpshooter_F"
-	unitList = ["I_ghillie_ard_F"];
-	_unit = group player createUnit [unitList select (round(random ((count unitList) - 1))), getPos player, [], 0, "FORM"];
+	__unitList = ["I_ghillie_ard_F"];
+	_unit = group player createUnit [__unitList select (round(random ((count __unitList) - 1))), getPos player, [], 0, "FORM"];
 	_unit setskill ["aimingAccuracy",0.9];
 	_unit setskill ["aimingShake",0.9];
 	_unit setskill ["aimingSpeed",0.9];
@@ -43,4 +42,4 @@
 	{
        ["ErrorTitleAndText", ["Deployment Failed!", "You need beef parts..."]] call ExileClient_gui_toaster_addTemplateToast;
 	}; 
- 
+}; 
