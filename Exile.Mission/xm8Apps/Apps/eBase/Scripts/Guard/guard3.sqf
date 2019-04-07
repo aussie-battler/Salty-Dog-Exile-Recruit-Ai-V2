@@ -38,7 +38,7 @@
 		//_statue = nearestObject [player, "Land_AncientStatue_01_F"];
 		//deleteVehicle _statue;
 		disableUserInput false;
-	};
+	}
 	else
 	{
        ["ErrorTitleAndText", ["Deployment Failed!", "You need beef parts..."]] call ExileClient_gui_toaster_addTemplateToast;
