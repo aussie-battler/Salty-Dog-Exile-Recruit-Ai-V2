@@ -1,4 +1,6 @@
-## Salty Dog Exile: Recruit Bodyguard Ai V2 by aussie
+## Salty Dog Exile: Recruit Bodyguard Ai V2 
+
+by aussie.
 
 **Description:** Recruit up to 6 different Ai Body guards from your XM8. 
 
