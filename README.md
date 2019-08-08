@@ -106,7 +106,7 @@ allowedIDDs[] =
 and change KCM in a3_infiSTAR_Exile\EXILE_AHAT_CONFIG.hpp:
 
 ```
-KCM = "true";		/* Just close ALL CommandingMenus */
+KCM = "false";		/* Just close ALL CommandingMenus */
 
 ```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
