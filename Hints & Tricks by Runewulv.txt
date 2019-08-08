@@ -1,10 +1,10 @@
 
 
-Hints & Tricks by Runewulv
+## Hints & Tricks by Runewulv
 
 I've been doing extensive testing with Recruit AI and will walk you through what menus are the needed and how to control your ai. So let's start out with the basics.
 
-Menus:
+**Menus:**
 
 You will have to rebind most of the items you will be using under the Command options in your control's config.
 
@@ -15,7 +15,7 @@ Besides SELECT ALL I suggest you rebind UNIT 2-8 SELECT, which allows you to ind
 Next bind that MOUNT menu. Once you select all you can then press your bind for the MOUNT menu which will open only when an AI is selected. This menu will let you tell the AI which seat to fill. Most often I select AI individually so I can better disperse them among whatever vehicles I am bringing.
 
 Next is the FORMATION menu. Select this menu and choose which formation they will follow you in other vehicles or on foot. I've convoyed as many as 4 vehicles at once. It's tedious and can be dangerous but very possible. Selecting Column will have them follow you in a line and will keep them on the road. Any other formation seems to make them want to drive off road and will stop at every rock in their path.
- 
+
 Now that the required menus are covered, let's talk about garrisons. Select all or Unit select and looking at even the tallest part of a patrol tower will allow you to send the selected unit but you have to highlight a building position to do so. Regroup calls them back as always.
 
 AI are decent drivers but they are not efficient at following you in convoy. If you select Column under the formation menu they will follow you in a vehicle in regroup but they are likely to stop at some point if something obstructs their path or you get too far away from them. Then you have to get back within range to get them moving again.
