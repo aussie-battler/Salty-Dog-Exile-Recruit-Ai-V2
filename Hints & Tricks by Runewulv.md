@@ -1,6 +1,6 @@
 
 
-##Hints & Tricks by Runewulv
+## Hints & Tricks by Runewulv
 
 I've been doing extensive testing with Recruit AI and will walk you through what menus are the needed and how to control your ai. So let's start out with the basics.
 
@@ -50,4 +50,4 @@ AI fly pretty well. I've had as many as three mozzie AI following me in my mozzi
 
 Unfortunately there's no way to really tell where your AI is but they will respond to a regroup command as far as 500m away.
 
-Be careful and happy hunting out there. :)
+Be careful and happy hunting out there.
